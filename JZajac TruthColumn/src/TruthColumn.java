@@ -21,7 +21,7 @@
  * This project fulfills the specifications of the assignment.  
  * It can take 1 or 2 same size arrays of boolean values and apply various operators.
  * The list of operators:
- * And, Or, Negate, Imply, Biconditional,
+ * And, Or, Negate, Imply, Biconditional, Imply
  * Valid, Unsatisfiable, Contingent, Equivalent, Entails
  * 
  * Current errors
