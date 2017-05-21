@@ -1,6 +1,6 @@
 
 /* Jacob Zajac
- * 5/19/17
+ * 5/21/17
  * 
  * Truth Column
  * 
