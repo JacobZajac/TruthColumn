@@ -98,7 +98,7 @@ public class TruthColumn {
 	//Returns an array which contains object from array 1 *or* object from array 2.
 	//@param Arr1 The first array of booleans
 	//@param Arr2 The second array of booleans
-	//@return Returns Arr1 or Arr2`ss 
+	//@return Returns Arr1 or Arr2
 	public static boolean[] or(boolean[] Arr1, boolean[] Arr2) {
 		boolean[] retval = new boolean[Arr1.length];
 		for (int pos = 0; pos < retval.length; pos++) {
@@ -187,7 +187,7 @@ public class TruthColumn {
 	//@param Arr2 The second array of booleans
 	//@return Returns true if Arr1 is the same as Arr2, false otherwise
 	public static boolean equivalent(boolean[] Arr1, boolean[] Arr2) {
-		return (Arr1.equals(Arr2));
+		return (Arrays.equals(Arr1, Arr2));
 	}
 	
 	//Returns a boolean value determined by if Arr1 entails Arr2.
