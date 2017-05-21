@@ -209,7 +209,7 @@ public class TruthColumn {
 	//@param Arr2 The second array of booleans
 	//@return Returns true if the array of Arr1 and Arr2 is valid, false otherwise
 	public static boolean consistent(boolean[] Arr1, boolean[] Arr2) {
-		return valid(and(Arr1, Arr2));
+		return !unsatisfiable(and(Arr1, Arr2));
 	}
 
 }
